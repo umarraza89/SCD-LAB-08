@@ -1,13 +1,25 @@
 
-public class Calculator {
+public class Calculator 
+{
 
-	public Calculator() {
-		// TODO Auto-generated constructor stub
+	public Calculator() 
+	{
+		
+	}
+	
+	int addition(int num1, int num2)
+	{
+		return num1 + num2;
+	}
+	
+	int multiplication(int num1, int num2)
+	{
+		return num1 * num2;
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args) 
+	{
+		
 	}
 
 }
